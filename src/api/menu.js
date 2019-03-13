@@ -7,7 +7,13 @@ const Menu =  [
     name: 'Dashboard',
   },
   {
-    title: '图表',
+    title: '学生总览',
+    group: 'apps',
+    icon: 'account_circle',
+    name: 'Studentsta',
+  },
+  {
+    title: '聊天',
     group: 'apps',
     icon: 'chat_bubble',
     target: '_blank',
@@ -32,8 +38,8 @@ const Menu =  [
     component: 'widgets',
     icon: 'widgets',
     items: [
-      { name: 'social', title: '总览', component: 'components/social' },
-      { name: 'statistic', title: '人像列表', badge: 'new', component: 'components/statistic' },
+      { name: 'social', title: '人像列表', component: 'components/social' },
+      { name: 'statistic', title: '总览', badge: 'new', component: 'components/statistic' },
       { name: 'chart', title: '统计图', component: 'components/chart' },
       { name: 'list', title: '列表', component: 'components/widget-list' },
     ]

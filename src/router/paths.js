@@ -8,7 +8,7 @@ export default [
     redirect: {
       path: '/404'
     }
-  },  
+  },
   {
     path: '/404',
     meta: {
@@ -70,6 +70,16 @@ export default [
       `@/views/Dashboard.vue`
     )
   },
+  {
+    path: '/studentsta',
+    meta: { breadcrumb: true },
+    name: 'Studentsta',
+    component: () => import(
+        /* webpackChunkName: "routes" */
+        `@/views/StudentSta.vue`
+        )
+  },
+
 
   {
     path: '/media',
@@ -80,7 +90,7 @@ export default [
       /* webpackChunkName: "routes" */
       `@/views/Media.vue`
     )
-  },  
+  },
   {
     path: '/chat',
     meta: {
@@ -106,8 +116,8 @@ export default [
           default: () => import(
             /* webpackChunkName: "routes" */
             `@/components/chat/ChatMessaging.vue`
-          ),  
-        }   
+          ),
+        }
       },
       {
         path: '/chat/contact/:uuid?',
@@ -119,12 +129,12 @@ export default [
           default: () => import(
             /* webpackChunkName: "routes" */
             `@/components/chat/ChatContact.vue`
-          ),  
+          ),
 
-        }     
-      }             
+        }
+      }
     ]
-  },    
+  },
   {
     path: '/mail',
     meta: {
@@ -148,7 +158,7 @@ export default [
         component: () => import(
           /* webpackChunkName: "routes" */
           `@/components/email/List.vue`
-        ),        
+        ),
       },
       {
         path: '/mail/0/:uuid',
@@ -159,10 +169,10 @@ export default [
         component: () => import(
           /* webpackChunkName: "routes" */
           `@/components/email/Reply.vue`
-        ),        
-      }      
+        ),
+      }
     ]
-  },  
+  },
   {
     path: '/components/alert',
     meta: { breadcrumb: true },

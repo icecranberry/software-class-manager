@@ -20,9 +20,9 @@
       <v-toolbar-items>
         <v-btn flat href="mailto:wangqiangshen@gmail.com">
           Hire Me
-        </v-btn>   
+        </v-btn>
       </v-toolbar-items>
-    
+
       <v-btn icon href="https://github.com/tookit/vue-material-admin">
         <v-icon class="fa-2x">fa-github</v-icon>
       </v-btn>
