@@ -1,10 +1,16 @@
 const Menu = [
   { header: "Apps" },
   {
-    title: "首页展示",
+    title: "教师首页展示",
     group: "apps",
     icon: "dashboard",
     name: "Dashboard"
+  },
+  {
+    title: "学生首页展示",
+    group: "apps",
+    icon: "dashboard",
+    name: "StuDashboard"
   },
   {
     title: "学生总览",
@@ -13,21 +19,33 @@ const Menu = [
     name: "Studentsta"
   },
   {
-    title: "聊天",
+    title: "提问列表",
     group: "apps",
     icon: "chat_bubble",
-    target: "_blank",
-    name: "Chat"
+    name: "Questions"
   },
   {
-    title: "站内信",
+    title: "作业提交列表",
     group: "apps",
-    name: "Mail",
-    target: "_blank",
-    icon: "email"
+    icon: "email",
+    name: "Projectsta"
   },
+  // {
+  //   title: "聊天",
+  //   group: "apps",
+  //   icon: "chat_bubble",
+  //   target: "_blank",
+  //   name: "Chat"
+  // },
+  // {
+  //   title: "站内信",
+  //   group: "apps",
+  //   name: "Mail",
+  //   target: "_blank",
+  //   icon: "email"
+  // },
   {
-    title: "文件",
+    title: "课程文件",
     group: "apps",
     name: "Media",
     icon: "perm_media"

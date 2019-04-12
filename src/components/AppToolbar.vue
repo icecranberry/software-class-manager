@@ -11,13 +11,13 @@
 <!--    >-->
 <!--    </v-text-field>-->
     <v-spacer></v-spacer>
-    <v-toolbar-items>
-      <v-btn flat href="mailto:wangqiangshen@gmail.com">
-        Hire Me
-      </v-btn>
-    </v-toolbar-items>
+<!--    <v-toolbar-items>-->
+<!--      <v-btn flat href="mailto:wangqiangshen@gmail.com">-->
+<!--        Hire Me-->
+<!--      </v-btn>-->
+<!--    </v-toolbar-items>-->
 
-    <v-btn icon href="https://github.com/tookit/vue-material-admin">
+    <v-btn icon href="https://github.com/icecranberry/software-class-manager">
       <v-icon class="fa-2x">fa-github</v-icon>
     </v-btn>
     <v-btn icon @click="handleFullScreen()">
@@ -46,7 +46,7 @@
     >
       <v-btn icon large flat slot="activator">
         <v-avatar size="30px">
-          <img src="/static/avatar/man_4.jpg" alt="Michael Wang" />
+          <img src="/static/avatar/me.jpg" alt="Michael Wang" />
         </v-avatar>
       </v-btn>
       <v-list class="pa-0">

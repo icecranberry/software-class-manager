@@ -5,8 +5,9 @@ const Items = [
     email: "23142134234@gmail.com",
     username: "Dessie79",
     jobTitle: "Web Developer",
-    phone: "13534232345",
+    phone: "2010502010201",
     avatar: "/static/avatar/a2.jpg",
+    finished:5,
     address: {
       street: "655 Archibald Groves",
       suite: "Apt. 818",
@@ -26,8 +27,9 @@ const Items = [
     jobTitle: "Web Designer",
     email: "3452334ewf@yahoo.com",
     username: "Jakayla_Crooks86",
-    phone: "15734524524",
+    phone: "2010502010202",
     avatar: "/static/avatar/a3.jpg",
+    finished:5,
     address: {
       street: "281 Tillman Forge",
       suite: "Apt. 381",
@@ -47,8 +49,9 @@ const Items = [
     jobTitle: "Sales",
     email: "ttesttest@hotmail.com",
     username: "Hobart_Mueller",
-    phone: "1385674456",
+    phone: "2010502010203",
     avatar: "static/avatar/a1.jpg",
+    finished:4,
     address: {
       street: "706 Padberg Knoll",
       suite: "Suite 818",
@@ -68,8 +71,9 @@ const Items = [
     jobTitle: "Marketing",
     email: "testettes@hotmail.com",
     username: "Celestine.Casper",
-    phone: "18956245187",
+    phone: "2010502010204",
     avatar: "/static/avatar/a4.jpg",
+    finished:5,
     address: {
       street: "9528 Schroeder Track",
       suite: "Apt. 443",
@@ -89,7 +93,8 @@ const Items = [
     email: "testtestt@yahoo.com",
     jobTitle: "Project Manager",
     username: "Hortense99",
-    phone: "13754862458",
+    phone: "2010502010205",
+    finished:4,
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/moscoz/128.jpg",
     address: {
       street: "9046 Allen Ferry",
@@ -110,7 +115,8 @@ const Items = [
     jobTitle: "Product Manager",
     email: "testttestte@gmail.com",
     username: "Pat_Zulauf81",
-    phone: "12354852",
+    phone: "2010502010206",
+    finished:5,
     avatar:
       "https://s3.amazonaws.com/uifaces/faces/twitter/rehatkathuria/128.jpg",
     address: {
@@ -132,7 +138,8 @@ const Items = [
     jobTitle: "Web Developer",
     email: "tesdtestes@hotmail.com",
     username: "Solon.Bauch4",
-    phone: "13652154785",
+    phone: "2010502010207",
+    finished:5,
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/spacewood_/128.jpg",
     address: {
       street: "8153 Favian Walk",
@@ -153,8 +160,9 @@ const Items = [
     jobTitle: "Programmer",
     email: "testtest@hotmail.com",
     username: "Calista_Mertz17",
-    phone: "13845216524",
+    phone: "2010502010208",
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/moscoz/128.jpg",
+    finished:3,
     address: {
       street: "886 Wendy Circles",
       suite: "Apt. 933",
@@ -174,8 +182,9 @@ const Items = [
     jobTitle: "Sales Executive",
     email: "testtestt@yahoo.com",
     username: "Jackeline.Abshire",
-    phone: "13878569856",
+    phone: "2010502010209",
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/larrybolt/128.jpg",
+    finished:5,
     address: {
       street: "416 Cathy Spur",
       suite: "Apt. 431",
@@ -195,9 +204,10 @@ const Items = [
     jobTitle: "PHP Developer",
     email: "testtttesttt@gmail.com",
     username: "Jamey_Grant",
-    phone: "18856451234",
+    phone: "2010502010210",
     avatar:
       "https://s3.amazonaws.com/uifaces/faces/twitter/mikebeecham/128.jpg",
+    finished:5,
     address: {
       street: "38372 Mante Glen",
       suite: "Suite 090",
@@ -217,8 +227,9 @@ const Items = [
     email: "testttttestt@gmail.com",
     jobTitle: "Web Developer",
     username: "Barton85",
-    phone: "13545214521",
+    phone: "2010502010211",
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/a_harris88/128.jpg",
+    finished:5,
     address: {
       street: "185 Florine Spurs",
       suite: "Suite 178",
@@ -238,8 +249,9 @@ const Items = [
     jobTitle: "Assets",
     email: "tttttttest@hotmail.com",
     username: "Gloria78",
-    phone: "19956451235",
+    phone: "2010502010212",
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/nehfy/128.jpg",
+    finished:5,
     address: {
       street: "643 Arch Mews",
       suite: "Apt. 171",
@@ -259,8 +271,9 @@ const Items = [
     jobTitle: "Finaice",
     email: "teeeeeest@yahoo.com",
     username: "Olin.Robel49",
-    phone: "15878986548",
+    phone: "2010502010213",
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/jcubic/128.jpg",
+    finished:4,
     address: {
       street: "0813 Mayer Greens",
       suite: "Apt. 551",
@@ -280,9 +293,10 @@ const Items = [
     jobTitle: "Supporting",
     email: "Rtestttest@yahoo.com",
     username: "Rollin43",
-    phone: "13865424864",
+    phone: "2010502010214",
     avatar:
       "https://s3.amazonaws.com/uifaces/faces/twitter/horaciobella/128.jpg",
+    finished:5,
     address: {
       street: "5704 Spinka Causeway",
       suite: "Suite 388",
@@ -302,8 +316,9 @@ const Items = [
     email: "testttest@hotmail.com",
     username: "Murl_Abshire41",
     jobTitle: "Web Developer",
-    phone: "13985469854",
+    phone: "2010502010215",
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/stayuber/128.jpg",
+    finished:5,
     address: {
       street: "4880 Tanner Circles",
       suite: "Apt. 994",
@@ -323,8 +338,9 @@ const Items = [
     jobTitle: "Web Developer",
     email: "tttttttesttest@hotmail.com",
     username: "Breanna.Bartoletti",
-    phone: "13846854685",
+    phone: "2010502010216",
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/flexrs/128.jpg",
+    finished:4,
     address: {
       street: "431 Grimes Common",
       suite: "Apt. 530",
@@ -344,8 +360,9 @@ const Items = [
     email: "testttest@yahoo.com",
     username: "Maya55",
     jobTitle: "Web Developer",
-    phone: "15715868695",
+    phone: "2010502010217",
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/nvkznemo/128.jpg",
+    finished:5,
     address: {
       street: "58581 Guillermo Springs",
       suite: "Suite 574",
@@ -365,9 +382,10 @@ const Items = [
     jobTitle: "Web Developer",
     email: "testtttest@yahoo.com",
     username: "Santiago41",
-    phone: "13513545469",
+    phone: "2010502010218",
     avatar:
       "https://s3.amazonaws.com/uifaces/faces/twitter/ernestsemerda/128.jpg",
+    finished:5,
     address: {
       street: "7868 Windler Dam",
       suite: "Suite 876",
@@ -386,8 +404,9 @@ const Items = [
     name: "测试学生19",
     email: "testttttttt@yahoo.com",
     username: "Leonardo10",
-    phone: "13652321548",
+    phone: "2010502010219",
     avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/adobi/128.jpg",
+    finished:5,
     address: {
       street: "146 Lemke Mountains",
       suite: "Apt. 407",
@@ -407,9 +426,10 @@ const Items = [
     jobTitle: "Web Developer",
     email: "testtestttest@hotmail.com",
     username: "Lora_Kessler5",
-    phone: "13546854685",
+    phone: "2010502010220",
     avatar:
       "https://s3.amazonaws.com/uifaces/faces/twitter/antongenkin/128.jpg",
+    finished:5,
     address: {
       street: "4018 Willms Turnpike",
       suite: "Suite 573",

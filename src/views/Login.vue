@@ -24,6 +24,7 @@
                     label="学号"
                     type="text"
                     v-model="model.username"
+                    ref="username"
                   ></v-text-field>
                   <v-text-field
                     append-icon="lock"
@@ -32,6 +33,7 @@
                     id="password"
                     type="password"
                     v-model="model.password"
+                    ref="password"
                   ></v-text-field>
                 </v-form>
               </v-card-text>
@@ -63,18 +65,29 @@ export default {
   data: () => ({
     loading: false,
     model: {
-      username: "admin@isockde.com",
-      password: "password"
+      username: "",
+      password: ""
     }
   }),
 
   methods: {
-    login() {
-      this.loading = true;
-      setTimeout(() => {
-        this.$router.push("/dashboard");
-      }, 1000);
-    }
+      login: function () {
+          this.loading = true;
+          let loginAccount ={"username":this.model.username,"password":this.model.password};
+          console.log(loginAccount);
+          this.axios.post('/api/login', loginAccount).then(res => {
+              if (res.data.msg == "Login success") {
+                  setTimeout(() => {
+                      this.$router.push("/dashboard");
+                  }, 500);
+              }
+              else {
+                  alert(res.data.msg);
+                  this.loading = false;
+              }
+              console.log('res=>', res);
+          });
+      }
   }
 };
 </script>

@@ -27,10 +27,10 @@
               <div class="post--desc py-2 text--secondary">
                 {{
                   item.desc
-                    | truncate({
-                      length: 150
-                    })
                 }}
+<!--                | truncate({-->
+<!--                length: 150-->
+<!--                })-->
               </div>
               <div class="post--meta o-flex justify-space-between">
                 <div class="post--author caption grey--text text--darken-1">

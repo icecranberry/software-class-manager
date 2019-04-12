@@ -1,32 +1,32 @@
 export default [
   {
     id: "150",
-    product: "iPhone6",
-    price: "$699",
-    status: "processing"
+    product: "第三周课堂作业",
+    price: "2018-05-08",
+    status: "完成"
   },
   {
     id: "151",
-    product: "iPad Pro",
-    price: "$299",
-    status: "sent"
+    product: "第四周课堂作业",
+    price: "2018-05-15",
+    status: "未上传"
   },
   {
     id: "300",
-    product: "Microsoft surface",
-    price: "$1,699",
-    status: "processing"
+    product: "第一周课堂作业",
+    price: "2018-04-17",
+    status: "完成"
   },
   {
-    id: "320",
-    product: "Galaxy S7 edge",
-    price: "$729",
-    status: "processing"
+    id: "300",
+    product: "第二周课堂作业",
+    price: "2018-04-30",
+    status: "完成"
   },
   {
     id: "501",
-    product: "128G SD Card",
-    price: "$699",
-    status: "delivered"
+    product: "第五周课堂作业",
+    price: "2018-05-30",
+    status: "未上传"
   }
 ];

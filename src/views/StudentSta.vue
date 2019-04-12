@@ -38,14 +38,15 @@
                                                 v-model="props.selected"
                                         ></v-checkbox>
                                     </td>
-                                    <td>
-                                        <v-avatar size="32">
-                                            <img :src="props.item.avatar" alt=""/>
-                                        </v-avatar>
-                                    </td>
+<!--                                    <td>-->
+<!--                                        <v-avatar size="32">-->
+<!--                                            <img :src="props.item.avatar" alt=""/>-->
+<!--                                        </v-avatar>-->
+<!--                                    </td>-->
                                     <td>{{ props.item.name }}</td>
                                     <td>{{ props.item.email }}</td>
                                     <td>{{ props.item.phone }}</td>
+                                    <td>{{ props.item.finished }}</td>
                                     <td>
                                         <v-btn
                                                 depressed
@@ -81,10 +82,10 @@
                 complex: {
                     selected: [],
                     headers: [
-                        {
-                            text: "头像",
-                            value: "avatar"
-                        },
+                        // {
+                        //     text: "头像",
+                        //     value: "avatar"
+                        // },
                         {
                             text: "姓名",
                             value: "name"
@@ -94,15 +95,20 @@
                             value: "email"
                         },
                         {
-                            text: "手机",
+                            text: "学号",
                             value: "phone"
+                        },
+                        {
+                            text: "作业完成数",
+                            value: "finished"
                         },
                         {
                             text: "操作",
                             value: ""
                         }
                     ],
-                    items: []
+                    // items: []
+                    items:Users
                 }
             }
         },

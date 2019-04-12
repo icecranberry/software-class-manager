@@ -65,6 +65,14 @@ export default [
       `@/views/Dashboard.vue`)
   },
   {
+    path: "/Studashboard",
+    meta: { breadcrumb: true },
+    name: "StuDashboard",
+    component: () =>
+        import(/* webpackChunkName: "routes" */
+            `@/views/StuDashboard.vue`)
+  },
+  {
     path: "/studentsta",
     meta: { breadcrumb: true },
     name: "Studentsta",
@@ -72,7 +80,30 @@ export default [
       import(/* webpackChunkName: "routes" */
       `@/views/StudentSta.vue`)
   },
-
+  {
+    path: "/questions",
+    meta: { breadcrumb: true },
+    name: "Questions",
+    component: () =>
+        import(/* webpackChunkName: "routes" */
+            `@/views/Questions.vue`)
+  },
+  {
+    path: "/qa",
+    meta: { breadcrumb: true },
+    name: "QA",
+    component: () =>
+        import(/* webpackChunkName: "routes" */
+            `@/views/QA.vue`)
+  },
+  {
+    path: "/projectsta",
+    meta: { breadcrumb: true },
+    name: "Projectsta",
+    component: () =>
+        import(/* webpackChunkName: "routes" */
+            `@/views/ProjectStatus.vue`)
+  },
   {
     path: "/test",
     meta: { breadcrumb: true },

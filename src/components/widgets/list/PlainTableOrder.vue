@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import items from "@/api/order";
+// import items from "@/api/order";
 export default {
   data() {
     return {
@@ -49,15 +49,45 @@ export default {
           sortable: false,
           value: "id"
         },
-        { text: "Product", value: "deadline" },
-        { text: "Price", value: "progress" },
-        { text: "Status", value: "status" }
+        { text: "任务名称", value: "deadline" },
+        { text: "截止时间", value: "progress" },
+        { text: "状态", value: "status" }
       ],
-      items: items,
+      items: [
+        {
+          id: "150",
+          product: "第三周课堂作业",
+          price: "2018-05-08",
+          status: "完成"
+        },
+        {
+          id: "151",
+          product: "第四周课堂作业",
+          price: "2018-05-15",
+          status: "未上传"
+        },
+        {
+          id: "300",
+          product: "第一周课堂作业",
+          price: "2018-04-17",
+          status: "完成"
+        },
+        {
+          id: "301",
+          product: "第二周课堂作业",
+          price: "2018-04-30",
+          status: "完成"
+        },
+        {
+          id: "501",
+          product: "第五周课堂作业",
+          price: "2018-05-30",
+          status: "未上传"
+        }
+      ],
       colors: {
-        processing: "blue",
-        sent: "red",
-        delivered: "green"
+        未上传: "red",
+        完成: "green"
       }
     };
   },

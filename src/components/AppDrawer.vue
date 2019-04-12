@@ -12,7 +12,7 @@
       <img
         v-bind:src="computeLogo"
         height="36"
-        alt="Vue Material Admin Template"
+        alt="云上软件工程"
       />
       <v-toolbar-title class="ml-0 pl-3">
         <span class="hidden-sm-and-down">云上软件工程</span>
@@ -142,7 +142,7 @@ export default {
       return true;
     },
     computeLogo() {
-      return "/static/m.png";
+      return "/static/project_m.png";
     },
 
     sideToolbarColor() {
